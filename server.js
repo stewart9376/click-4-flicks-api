@@ -6,6 +6,8 @@ const port = process.env.PORT || 5050;
 const cors = require("cors");
 app.use(cors(CORS_ORIGIN));
 app.use(express.json());
+app.use(express.static("public"));
+
 const recommendationsRoutes = require("./routes/recommendationsRoute");
 
 app.use("/api/recommendations", recommendationsRoutes);

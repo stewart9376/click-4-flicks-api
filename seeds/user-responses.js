@@ -12,6 +12,7 @@ exports.seed = async function (knex) {
       genre: "Superhero/Action",
       happy_ending: "false",
       minutes: "152",
+      poster_path: "http://localhost:5050/images/the-dark-knight.jpg",
     },
     {
       id: 2,
@@ -19,6 +20,7 @@ exports.seed = async function (knex) {
       genre: "Drama",
       happy_ending: "true",
       minutes: "142",
+      poster_path: "http://localhost:5050/images/the-shankshank-redemption.jpg",
     },
     {
       id: 3,
@@ -26,6 +28,7 @@ exports.seed = async function (knex) {
       genre: "Drama/Comedy",
       happy_ending: "true",
       minutes: "142",
+      poster_path: "http://localhost:5050/images/forrest-gump.jpg",
     },
     {
       id: 4,
@@ -33,6 +36,7 @@ exports.seed = async function (knex) {
       genre: "Sci-Fi/Thriller",
       happy_ending: "true",
       minutes: "148",
+      poster_path: "http://localhost:5050/images/inception.jpg",
     },
     {
       id: 5,
@@ -40,6 +44,7 @@ exports.seed = async function (knex) {
       genre: "Crime/Drama",
       happy_ending: "false",
       minutes: "175",
+      poster_path: "http://localhost:5050/images/the-godfather.jpg",
     },
     {
       id: 6,
@@ -47,6 +52,7 @@ exports.seed = async function (knex) {
       genre: "Sci-Fi/Action",
       happy_ending: "true",
       minutes: "136",
+      poster_path: "http://localhost:5050/images/the-matrix.jpg",
     },
     {
       id: 7,
@@ -54,6 +60,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "81",
+      poster_path: "http://localhost:5050/images/toy-story.jpg",
     },
     {
       id: 8,
@@ -61,6 +68,7 @@ exports.seed = async function (knex) {
       genre: "Fantasy/Adventure",
       happy_ending: "true",
       minutes: "201",
+      poster_path: "http://localhost:5050/images/lotr-return-of-the-king.jpg",
     },
     {
       id: 9,
@@ -68,6 +76,7 @@ exports.seed = async function (knex) {
       genre: "Crime/Drama",
       happy_ending: "false",
       minutes: "154",
+      poster_path: "http://localhost:5050/images/pulp-fiction.jpg",
     },
     {
       id: 10,
@@ -75,6 +84,7 @@ exports.seed = async function (knex) {
       genre: "Romance/Drama",
       happy_ending: "false",
       minutes: "195",
+      poster_path: "http://localhost:5050/images/titanic.jpg",
     },
     {
       id: 11,
@@ -82,6 +92,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "88",
+      poster_path: "http://localhost:5050/images/the-lion-king.jpg",
     },
     {
       id: 12,
@@ -89,6 +100,7 @@ exports.seed = async function (knex) {
       genre: "Action/Drama",
       happy_ending: "false",
       minutes: "155",
+      poster_path: "http://localhost:5050/images/gladiator.jpg",
     },
     {
       id: 13,
@@ -96,6 +108,7 @@ exports.seed = async function (knex) {
       genre: "Crime/Thriller",
       happy_ending: "false",
       minutes: "151",
+      poster_path: "http://localhost:5050/images/the-departed.jpg",
     },
     {
       id: 14,
@@ -103,6 +116,7 @@ exports.seed = async function (knex) {
       genre: "War/Drama",
       happy_ending: "true",
       minutes: "169",
+      poster_path: "http://localhost:5050/images/saving-private-ryan.jpg",
     },
     {
       id: 15,
@@ -110,6 +124,7 @@ exports.seed = async function (knex) {
       genre: "Superhero/Action",
       happy_ending: "true",
       minutes: "143",
+      poster_path: "http://localhost:5050/images/the-avengers.jpg",
     },
     {
       id: 16,
@@ -117,6 +132,7 @@ exports.seed = async function (knex) {
       genre: "Adventure/Sci-Fi",
       happy_ending: "true",
       minutes: "127",
+      poster_path: "http://localhost:5050/images/jurassic-park.jpg",
     },
     {
       id: 17,
@@ -124,6 +140,7 @@ exports.seed = async function (knex) {
       genre: "Thriller/Crime",
       happy_ending: "false",
       minutes: "118",
+      poster_path: "http://localhost:5050/images/silence-of-the-lambs.jpg",
     },
     {
       id: 18,
@@ -131,6 +148,7 @@ exports.seed = async function (knex) {
       genre: "Fantasy/Adventure",
       happy_ending: "true",
       minutes: "102",
+      poster_path: "http://localhost:5050/images/wizard-of-oz.jpg",
     },
     {
       id: 19,
@@ -138,6 +156,7 @@ exports.seed = async function (knex) {
       genre: "Drama/Fantasy",
       happy_ending: "true",
       minutes: "189",
+      poster_path: "http://localhost:5050/images/the-green-mile.jpg",
     },
     {
       id: 20,
@@ -145,6 +164,7 @@ exports.seed = async function (knex) {
       genre: "Thriller/Drama",
       happy_ending: "false",
       minutes: "107",
+      poster_path: "http://localhost:5050/images/the-sixth-sense.jpg",
     },
     {
       id: 21,
@@ -152,6 +172,7 @@ exports.seed = async function (knex) {
       genre: "Sci-Fi/Drama",
       happy_ending: "true",
       minutes: "169",
+      poster_path: "http://localhost:5050/images/interstellar.jpg",
     },
     {
       id: 22,
@@ -159,6 +180,7 @@ exports.seed = async function (knex) {
       genre: "Drama/Biography",
       happy_ending: "false",
       minutes: "120",
+      poster_path: "http://localhost:5050/images/the-social-network.jpg",
     },
     {
       id: 23,
@@ -166,6 +188,7 @@ exports.seed = async function (knex) {
       genre: "Musical/Drama",
       happy_ending: "true",
       minutes: "174",
+      poster_path: "http://localhost:5050/images/the-sound-of-music.jpg",
     },
     {
       id: 24,
@@ -173,6 +196,8 @@ exports.seed = async function (knex) {
       genre: "Fantasy/Adventure",
       happy_ending: "true",
       minutes: "152",
+      poster_path:
+        "http://localhost:5050/images/harry-potter-and-the-philospher's-stone.jpg",
     },
     {
       id: 25,
@@ -180,6 +205,7 @@ exports.seed = async function (knex) {
       genre: "Sci-Fi/Action",
       happy_ending: "true",
       minutes: "138",
+      poster_path: "http://localhost:5050/images/the-matrix-reloaded.jpg",
     },
     {
       id: 26,
@@ -187,6 +213,7 @@ exports.seed = async function (knex) {
       genre: "Sci-Fi/Action",
       happy_ending: "false",
       minutes: "107",
+      poster_path: "http://localhost:5050/images/the-terminator.jpg",
     },
     {
       id: 27,
@@ -194,6 +221,7 @@ exports.seed = async function (knex) {
       genre: "Horror",
       happy_ending: "false",
       minutes: "122",
+      poster_path: "http://localhost:5050/images/the-exorcist.jpg",
     },
     {
       id: 28,
@@ -201,6 +229,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Comedy",
       happy_ending: "true",
       minutes: "90",
+      poster_path: "http://localhost:5050/images/shrek.jpg",
     },
     {
       id: 29,
@@ -208,6 +237,7 @@ exports.seed = async function (knex) {
       genre: "Crime/Drama",
       happy_ending: "false",
       minutes: "202",
+      poster_path: "http://localhost:5050/images/the-godfather-part-II.jpg",
     },
     {
       id: 30,
@@ -215,6 +245,7 @@ exports.seed = async function (knex) {
       genre: "Sci-Fi/Adventure",
       happy_ending: "true",
       minutes: "144",
+      poster_path: "http://localhost:5050/images/the-martian.jpg",
     },
     {
       id: 31,
@@ -222,6 +253,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "100",
+      poster_path: "http://localhost:5050/images/finding-nemo.jpg",
     },
     {
       id: 32,
@@ -229,6 +261,7 @@ exports.seed = async function (knex) {
       genre: "Adventure/Action",
       happy_ending: "true",
       minutes: "115",
+      poster_path: "http://localhost:5050/images/raiders-of-the-lost-ark.jpg",
     },
     {
       id: 33,
@@ -236,6 +269,7 @@ exports.seed = async function (knex) {
       genre: "Western/Drama",
       happy_ending: "false",
       minutes: "165",
+      poster_path: "http://localhost:5050/images/django-unchained.jpg",
     },
     {
       id: 34,
@@ -243,6 +277,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "118",
+      poster_path: "http://localhost:5050/images/lion-king-2019.jpg",
     },
     {
       id: 35,
@@ -250,6 +285,7 @@ exports.seed = async function (knex) {
       genre: "Drama/History",
       happy_ending: "true",
       minutes: "195",
+      poster_path: "http://localhost:5050/images/schindlers-list.jpg",
     },
     {
       id: 36,
@@ -257,6 +293,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Superhero",
       happy_ending: "true",
       minutes: "115",
+      poster_path: "http://localhost:5050/images/the-incredibles.jpg",
     },
     {
       id: 37,
@@ -264,6 +301,7 @@ exports.seed = async function (knex) {
       genre: "Sci-Fi/Adventure",
       happy_ending: "true",
       minutes: "116",
+      poster_path: "http://localhost:5050/images/back-to-the-future.jpg",
     },
     {
       id: 38,
@@ -271,6 +309,7 @@ exports.seed = async function (knex) {
       genre: "Crime/Drama",
       happy_ending: "false",
       minutes: "146",
+      poster_path: "http://localhost:5050/images/goodfellas.jpg",
     },
     {
       id: 39,
@@ -278,6 +317,7 @@ exports.seed = async function (knex) {
       genre: "Drama/Sci-Fi",
       happy_ending: "true",
       minutes: "136",
+      poster_path: "http://localhost:5050/images/a-clockwork-orange.jpg",
     },
     {
       id: 40,
@@ -285,6 +325,7 @@ exports.seed = async function (knex) {
       genre: "Sci-Fi/Action",
       happy_ending: "true",
       minutes: "162",
+      poster_path: "http://localhost:5050/images/avatar.jpg",
     },
     {
       id: 41,
@@ -292,6 +333,7 @@ exports.seed = async function (knex) {
       genre: "Thriller/Mystery",
       happy_ending: "false",
       minutes: "130",
+      poster_path: "http://localhost:5050/images/the-prestige.jpg",
     },
     {
       id: 42,
@@ -299,6 +341,7 @@ exports.seed = async function (knex) {
       genre: "Superhero/Action",
       happy_ending: "true",
       minutes: "134",
+      poster_path: "http://localhost:5050/images/black-panther.jpg",
     },
     {
       id: 43,
@@ -306,6 +349,7 @@ exports.seed = async function (knex) {
       genre: "Crime/Drama",
       happy_ending: "false",
       minutes: "162",
+      poster_path: "http://localhost:5050/images/godfather-part-III.jpg",
     },
     {
       id: 44,
@@ -313,6 +357,7 @@ exports.seed = async function (knex) {
       genre: "Crime/Thriller",
       happy_ending: "false",
       minutes: "151",
+      poster_path: "http://localhost:5050/images/the-departed.jpg",
     },
     {
       id: 45,
@@ -320,6 +365,7 @@ exports.seed = async function (knex) {
       genre: "Mystery/Thriller",
       happy_ending: "false",
       minutes: "113",
+      poster_path: "http://localhost:5050/images/memento.jpg",
     },
     {
       id: 46,
@@ -327,6 +373,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Fantasy",
       happy_ending: "true",
       minutes: "125",
+      poster_path: "http://localhost:5050/images/spirited-away.jpg",
     },
     {
       id: 47,
@@ -334,6 +381,7 @@ exports.seed = async function (knex) {
       genre: "Sci-Fi/Horror",
       happy_ending: "false",
       minutes: "117",
+      poster_path: "http://localhost:5050/images/alien.jpg",
     },
     {
       id: 48,
@@ -341,6 +389,7 @@ exports.seed = async function (knex) {
       genre: "Adventure/Drama",
       happy_ending: "false",
       minutes: "156",
+      poster_path: "http://localhost:5050/images/the-revenant.jpg",
     },
     {
       id: 49,
@@ -348,6 +397,7 @@ exports.seed = async function (knex) {
       genre: "Comedy/Drama",
       happy_ending: "true",
       minutes: "97",
+      poster_path: "http://localhost:5050/images/the-breakfast-club.jpg",
     },
     {
       id: 50,
@@ -355,6 +405,7 @@ exports.seed = async function (knex) {
       genre: "Horror",
       happy_ending: "false",
       minutes: "146",
+      poster_path: "http://localhost:5050/images/the-shining.jpg",
     },
     {
       id: 51,
@@ -362,6 +413,7 @@ exports.seed = async function (knex) {
       genre: "Superhero/Action",
       happy_ending: "true",
       minutes: "164",
+      poster_path: "http://localhost:5050/images/the-dark-knight-rises.jpg",
     },
     {
       id: 52,
@@ -369,6 +421,7 @@ exports.seed = async function (knex) {
       genre: "Drama/Comedy",
       happy_ending: "true",
       minutes: "103",
+      poster_path: "http://localhost:5050/images/the-truman-show.jpg",
     },
     {
       id: 53,
@@ -376,6 +429,8 @@ exports.seed = async function (knex) {
       genre: "Western",
       happy_ending: "true",
       minutes: "178",
+      poster_path:
+        "http://localhost:5050/images/the-good-the-bad-and-the-ugly.jpg",
     },
     {
       id: 54,
@@ -383,6 +438,7 @@ exports.seed = async function (knex) {
       genre: "Thriller/Adventure",
       happy_ending: "false",
       minutes: "124",
+      poster_path: "http://localhost:5050/images/jaws.jpg",
     },
     {
       id: 55,
@@ -390,6 +446,7 @@ exports.seed = async function (knex) {
       genre: "Action/Crime",
       happy_ending: "false",
       minutes: "111",
+      poster_path: "http://localhost:5050/images/kill-bill-vol-1.jpg",
     },
     {
       id: 56,
@@ -397,6 +454,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "102",
+      poster_path: "http://localhost:5050/images/frozen.jpg",
     },
     {
       id: 57,
@@ -404,6 +462,8 @@ exports.seed = async function (knex) {
       genre: "Adventure/Action",
       happy_ending: "true",
       minutes: "127",
+      poster_path:
+        "http://localhost:5050/images/indiana-jones-and-the-last-crusade.jpg",
     },
     {
       id: 58,
@@ -411,6 +471,7 @@ exports.seed = async function (knex) {
       genre: "Adventure/Fantasy",
       happy_ending: "true",
       minutes: "98",
+      poster_path: "http://localhost:5050/images/the-princess-bride.jpg",
     },
     {
       id: 59,
@@ -418,6 +479,7 @@ exports.seed = async function (knex) {
       genre: "Crime/Drama",
       happy_ending: "false",
       minutes: "162",
+      poster_path: "http://localhost:5050/images/godfather-part-III.jpg",
     },
     {
       id: 60,
@@ -425,6 +487,7 @@ exports.seed = async function (knex) {
       genre: "Crime/Thriller",
       happy_ending: "false",
       minutes: "151",
+      poster_path: "http://localhost:5050/images/the-departed.jpg",
     },
     {
       id: 61,
@@ -432,6 +495,7 @@ exports.seed = async function (knex) {
       genre: "Mystery/Thriller",
       happy_ending: "false",
       minutes: "113",
+      poster_path: "http://localhost:5050/images/the-memento.jpg",
     },
     {
       id: 62,
@@ -439,6 +503,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Fantasy",
       happy_ending: "true",
       minutes: "125",
+      poster_path: "http://localhost:5050/images/spirited-away.jpg",
     },
     {
       id: 63,
@@ -446,6 +511,7 @@ exports.seed = async function (knex) {
       genre: "Sci-Fi/Horror",
       happy_ending: "false",
       minutes: "117",
+      poster_path: "http://localhost:5050/images/alien.jpg",
     },
     {
       id: 64,
@@ -453,6 +519,7 @@ exports.seed = async function (knex) {
       genre: "Adventure/Drama",
       happy_ending: "false",
       minutes: "156",
+      poster_path: "http://localhost:5050/images/the-revenant.jpg",
     },
     {
       id: 65,
@@ -460,6 +527,7 @@ exports.seed = async function (knex) {
       genre: "Comedy/Drama",
       happy_ending: "true",
       minutes: "97",
+      poster_path: "http://localhost:5050/images/the-breakfast-club.jpg",
     },
     {
       id: 66,
@@ -467,6 +535,7 @@ exports.seed = async function (knex) {
       genre: "Horror",
       happy_ending: "false",
       minutes: "146",
+      poster_path: "http://localhost:5050/images/the-shining.jpg",
     },
     {
       id: 67,
@@ -474,6 +543,7 @@ exports.seed = async function (knex) {
       genre: "Superhero/Action",
       happy_ending: "true",
       minutes: "164",
+      poster_path: "http://localhost:5050/images/the-dark-knight-rises.jpg",
     },
     {
       id: 68,
@@ -481,6 +551,7 @@ exports.seed = async function (knex) {
       genre: "Drama/Comedy",
       happy_ending: "true",
       minutes: "103",
+      poster_path: "http://localhost:5050/images/the-truman-show.jpg",
     },
     {
       id: 69,
@@ -488,6 +559,8 @@ exports.seed = async function (knex) {
       genre: "Western",
       happy_ending: "true",
       minutes: "178",
+      poster_path:
+        "http://localhost:5050/images/the-good-the-bad-and-the-ugly.jpg",
     },
     {
       id: 70,
@@ -495,6 +568,7 @@ exports.seed = async function (knex) {
       genre: "Thriller/Adventure",
       happy_ending: "false",
       minutes: "124",
+      poster_path: "http://localhost:5050/images/jaws.jpg",
     },
     {
       id: 71,
@@ -502,6 +576,7 @@ exports.seed = async function (knex) {
       genre: "Action/Crime",
       happy_ending: "false",
       minutes: "111",
+      poster_path: "http://localhost:5050/images/kill-bill-vol-1.jpg",
     },
     {
       id: 72,
@@ -509,6 +584,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "102",
+      poster_path: "http://localhost:5050/images/frozen.jpg",
     },
     {
       id: 73,
@@ -516,6 +592,8 @@ exports.seed = async function (knex) {
       genre: "Adventure/Action",
       happy_ending: "true",
       minutes: "127",
+      poster_path:
+        "http://localhost:5050/images/indiana-jones-and-the-last-crusade.jpg",
     },
     {
       id: 74,
@@ -523,6 +601,7 @@ exports.seed = async function (knex) {
       genre: "Adventure/Fantasy",
       happy_ending: "true",
       minutes: "98",
+      poster_path: "http://localhost:5050/images/the-princess-bride.jpg",
     },
     {
       id: 75,
@@ -530,6 +609,7 @@ exports.seed = async function (knex) {
       genre: "Action/Drama",
       happy_ending: "false",
       minutes: "155",
+      poster_path: "http://localhost:5050/images/gladiator.jpg",
     },
     {
       id: 76,
@@ -537,6 +617,7 @@ exports.seed = async function (knex) {
       genre: "Drama/History",
       happy_ending: "true",
       minutes: "118",
+      poster_path: "http://localhost:5050/images/the-kings-speech.jpg",
     },
     {
       id: 77,
@@ -544,6 +625,7 @@ exports.seed = async function (knex) {
       genre: "Comedy/Romance",
       happy_ending: "true",
       minutes: "122",
+      poster_path: "http://localhost:5050/images/amelie.jpg",
     },
     {
       id: 78,
@@ -551,6 +633,7 @@ exports.seed = async function (knex) {
       genre: "Crime/Drama",
       happy_ending: "false",
       minutes: "175",
+      poster_path: "http://localhost:5050/images/the-godfather.jpg",
     },
     {
       id: 79,
@@ -558,6 +641,7 @@ exports.seed = async function (knex) {
       genre: "Musical/Drama",
       happy_ending: "true",
       minutes: "174",
+      poster_path: "http://localhost:5050/images/the-sound-of-music.jpg",
     },
     {
       id: 80,
@@ -565,6 +649,7 @@ exports.seed = async function (knex) {
       genre: "Comedy/Drama",
       happy_ending: "true",
       minutes: "116",
+      poster_path: "http://localhost:5050/images/life-is-beautiful.jpg",
     },
     {
       id: 81,
@@ -572,6 +657,7 @@ exports.seed = async function (knex) {
       genre: "Comedy/Drama",
       happy_ending: "true",
       minutes: "99",
+      poster_path: "http://localhost:5050/images/the-grand-budapest-hotel.jpg",
     },
     {
       id: 82,
@@ -579,6 +665,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "81",
+      poster_path: "http://localhost:5050/images/toy-story.jpg",
     },
     {
       id: 83,
@@ -586,6 +673,8 @@ exports.seed = async function (knex) {
       genre: "Fantasy/Adventure",
       happy_ending: "true",
       minutes: "178",
+      poster_path:
+        "http://localhost:5050/images/lotr-the-fellowship-of-the-ring.jpg",
     },
     {
       id: 84,
@@ -593,6 +682,7 @@ exports.seed = async function (knex) {
       genre: "Biography/Drama",
       happy_ending: "false",
       minutes: "178",
+      poster_path: "http://localhost:5050/images/braveheart.jpg",
     },
     {
       id: 85,
@@ -600,6 +690,7 @@ exports.seed = async function (knex) {
       genre: "Superhero/Action",
       happy_ending: "true",
       minutes: "143",
+      poster_path: "http://localhost:5050/images/avengers.jpg",
     },
     {
       id: 86,
@@ -607,6 +698,7 @@ exports.seed = async function (knex) {
       genre: "Biography/Drama",
       happy_ending: "false",
       minutes: "120",
+      poster_path: "http://localhost:5050/images/the-social-network.jpg",
     },
     {
       id: 87,
@@ -614,6 +706,7 @@ exports.seed = async function (knex) {
       genre: "Drama/Romance",
       happy_ending: "true",
       minutes: "126",
+      poster_path: "http://localhost:5050/images/good-will-hunting.jpg",
     },
     {
       id: 88,
@@ -621,6 +714,7 @@ exports.seed = async function (knex) {
       genre: "Comedy/Drama",
       happy_ending: "true",
       minutes: "103",
+      poster_path: "http://localhost:5050/images/the-truman-show.jpg",
     },
     {
       id: 89,
@@ -628,6 +722,7 @@ exports.seed = async function (knex) {
       genre: "Action/Adventure",
       happy_ending: "false",
       minutes: "148",
+      poster_path: "http://localhost:5050/images/inception.jpg",
     },
     {
       id: 90,
@@ -635,6 +730,7 @@ exports.seed = async function (knex) {
       genre: "Action/Sci-Fi",
       happy_ending: "true",
       minutes: "136",
+      poster_path: "http://localhost:5050/images/the-matrix.jpg",
     },
     {
       id: 91,
@@ -642,6 +738,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "100",
+      poster_path: "http://localhost:5050/images/soul.jpg",
     },
     {
       id: 92,
@@ -649,6 +746,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Action",
       happy_ending: "true",
       minutes: "115",
+      poster_path: "http://localhost:5050/images/the-incredibles.jpg",
     },
     {
       id: 93,
@@ -656,6 +754,7 @@ exports.seed = async function (knex) {
       genre: "Biography/Drama",
       happy_ending: "true",
       minutes: "117",
+      poster_path: "http://localhost:5050/images/the-pursuit-of-happiness.jpg",
     },
     {
       id: 94,
@@ -663,6 +762,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "100",
+      poster_path: "http://localhost:5050/images/finding-nemo.jpg",
     },
     {
       id: 95,
@@ -670,6 +770,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "98",
+      poster_path: "http://localhost:5050/images/wall-e.jpg",
     },
     {
       id: 96,
@@ -677,6 +778,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "90",
+      poster_path: "http://localhost:5050/images/shrek.jpg",
     },
     {
       id: 97,
@@ -684,6 +786,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Comedy",
       happy_ending: "true",
       minutes: "111",
+      poster_path: "http://localhost:5050/images/ratatouille.jpg",
     },
     {
       id: 98,
@@ -691,6 +794,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "96",
+      poster_path: "http://localhost:5050/images/up.jpg",
     },
     {
       id: 99,
@@ -698,6 +802,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "103",
+      poster_path: "http://localhost:5050/images/toy-story-3.jpg",
     },
     {
       id: 100,
@@ -705,6 +810,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "95",
+      poster_path: "http://localhost:5050/images/inside-out.jpg",
     },
     {
       id: 101,
@@ -712,6 +818,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "105",
+      poster_path: "http://localhost:5050/images/coco.jpg",
     },
     {
       id: 102,
@@ -719,6 +826,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Comedy",
       happy_ending: "true",
       minutes: "92",
+      poster_path: "http://localhost:5050/images/monsters-inc.jpg",
     },
     {
       id: 103,
@@ -726,6 +834,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "97",
+      poster_path: "http://localhost:5050/images/finding-dory.jpg",
     },
     {
       id: 104,
@@ -733,6 +842,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "108",
+      poster_path: "http://localhost:5050/images/zootopia.jpg",
     },
     {
       id: 105,
@@ -740,6 +850,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Action",
       happy_ending: "true",
       minutes: "92",
+      poster_path: "http://localhost:5050/images/kung-fu-panda.jpg",
     },
     {
       id: 106,
@@ -747,6 +858,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "107",
+      poster_path: "http://localhost:5050/images/moana.jpg",
     },
     {
       id: 107,
@@ -754,6 +866,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "98",
+      poster_path: "http://localhost:5050/images/the-croods.jpg",
     },
     {
       id: 108,
@@ -761,6 +874,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Comedy",
       happy_ending: "true",
       minutes: "108",
+      poster_path: "http://localhost:5050/images/sing.jpg",
     },
     {
       id: 109,
@@ -768,6 +882,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "92",
+      poster_path: "http://localhost:5050/images/trolls.jpg",
     },
     {
       id: 110,
@@ -775,6 +890,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Comedy",
       happy_ending: "true",
       minutes: "97",
+      poster_path: "http://localhost:5050/images/the-boss-baby.jpg",
     },
     {
       id: 111,
@@ -782,6 +898,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Action",
       happy_ending: "true",
       minutes: "102",
+      poster_path: "http://localhost:5050/images/big-hero-6.jpg",
     },
     {
       id: 112,
@@ -789,6 +906,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "87",
+      poster_path: "http://localhost:5050/images/secret-life-of-pets.jpg",
     },
     {
       id: 113,
@@ -796,6 +914,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Comedy",
       happy_ending: "true",
       minutes: "95",
+      poster_path: "http://localhost:5050/images/despicable-me.jpg",
     },
     {
       id: 114,
@@ -803,6 +922,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "86",
+      poster_path: "http://localhost:5050/images/madagascar.jpg",
     },
     {
       id: 115,
@@ -887,6 +1007,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "102",
+      poster_path: "http://localhost:5050/images/frozen.jpg",
     },
     {
       id: 127,
@@ -894,6 +1015,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "81",
+      poster_path: "http://localhost:5050/images/toy-story.jpg",
     },
     {
       id: 128,
@@ -901,6 +1023,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "88",
+      poster_path: "http://localhost:5050/images/the-lion-king.jpg",
     },
     {
       id: 129,
@@ -908,6 +1031,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "95",
+      poster_path: "http://localhost:5050/images/inside-out.jpg",
     },
     {
       id: 130,
@@ -915,6 +1039,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "107",
+      poster_path: "http://localhost:5050/images/moana.jpg",
     },
     {
       id: 131,
@@ -922,6 +1047,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Comedy",
       happy_ending: "true",
       minutes: "95",
+      poster_path: "http://localhost:5050/images/despicable-me.jpg",
     },
     {
       id: 132,
@@ -929,6 +1055,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "96",
+      poster_path: "http://localhost:5050/images/up.jpg",
     },
     {
       id: 133,
@@ -943,6 +1070,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Action",
       happy_ending: "true",
       minutes: "102",
+      poster_path: "http://localhost:5050/images/big-hero-6.jpg",
     },
     {
       id: 135,
@@ -950,6 +1078,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "87",
+      poster_path: "http://localhost:5050/images/secret-life-of-pets.jpg",
     },
     {
       id: 136,
@@ -999,6 +1128,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "98",
+      poster_path: "http://localhost:5050/images/the-croods.jpg",
     },
     {
       id: 143,
@@ -1006,6 +1136,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Comedy",
       happy_ending: "true",
       minutes: "108",
+      poster_path: "http://localhost:5050/images/sing.jpg",
     },
     {
       id: 144,
@@ -1013,6 +1144,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "92",
+      poster_path: "http://localhost:5050/images/trolls.jpg",
     },
     {
       id: 145,
@@ -1020,6 +1152,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Comedy",
       happy_ending: "true",
       minutes: "97",
+      poster_path: "http://localhost:5050/images/the-boss-baby.jpg",
     },
     {
       id: 146,
@@ -1027,6 +1160,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "86",
+      poster_path: "http://localhost:5050/images/madagascar.jpg",
     },
     {
       id: 147,
@@ -1041,6 +1175,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Comedy",
       happy_ending: "true",
       minutes: "111",
+      poster_path: "http://localhost:5050/images/ratatouille.jpg",
     },
     {
       id: 149,
@@ -1048,6 +1183,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Action",
       happy_ending: "true",
       minutes: "92",
+      poster_path: "http://localhost:5050/images/kung-fu-panda.jpg",
     },
     {
       id: 150,
@@ -1055,6 +1191,7 @@ exports.seed = async function (knex) {
       genre: "Animation/Adventure",
       happy_ending: "true",
       minutes: "102",
+      poster_path: "http://localhost:5050/images/frozen.jpg",
     },
   ]);
 };
