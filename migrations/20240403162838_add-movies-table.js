@@ -10,6 +10,7 @@ exports.up = function (knex) {
     table.string("genre").notNullable();
     table.string("happy_ending").notNullable();
     table.string("minutes").notNullable();
+    table.string("poster_path").notNullable();
   });
 };
 
@@ -17,4 +18,6 @@ exports.up = function (knex) {
  * @param { import("knex").Knex } knex
  * @returns { Promise<void> }
  */
-exports.down = function (knex) {};
+exports.down = function (knex) {
+  return knex.schema.dropTable("movies");
+};
