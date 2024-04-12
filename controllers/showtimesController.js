@@ -1,6 +1,8 @@
 const knex = require("knex")(require("../knexfile"));
 
 const getAllShowtimes = async (req, res) => {
+  const { value } = req.body;
+
   try {
     const allShowtimes = await knex("showtimes");
     if (!allShowtimes.length) {
