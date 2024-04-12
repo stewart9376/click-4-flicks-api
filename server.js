@@ -15,3 +15,11 @@ app.use("/api/recommendations", recommendationsRoutes);
 app.listen(port, () => {
   console.log(`Listening on ${port}`);
 });
+
+const showtimesRoutes = require("./routes/showtimes");
+
+app.use("/api/showtimes", showtimesRoutes);
+
+app.listen(port, () => {
+  console.log(`Listening on ${port}`);
+});
