@@ -6,6 +6,7 @@ const environment = process.env.NODE_ENV || "development";
 const configuration = require("../knexfile")[environment];
 const knex = require("knex")(configuration);
 const jwt = require("jsonwebtoken");
+
 router.post("/register", async (req, res) => {
   const { username, email, password } = req.body;
   if (!username || !email || !password) {
@@ -19,7 +20,7 @@ router.post("/register", async (req, res) => {
     return res.status(400).json({ error: errorMessage });
   }
   try {
-    const existingUser = await knex("user")
+    const existingUser = await knex("users")
       .where({ username })
       .orWhere({ email })
       .first();
@@ -43,6 +44,7 @@ router.post("/register", async (req, res) => {
     return res.status(400).json({ error: "Failed registration" });
   }
 });
+
 router.post("/login", async (req, res) => {
   const { username, password } = req.body;
   if (!username || !password) {
