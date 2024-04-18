@@ -37,7 +37,7 @@ router.post("/register", async (req, res) => {
       email,
       password: hashedPassword,
     };
-    await knex("user").insert(newUser);
+    await knex("users").insert(newUser);
     return res.status(201).json(newUser);
   } catch (error) {
     console.log(error);
@@ -57,7 +57,7 @@ router.post("/login", async (req, res) => {
     return res.status(400).json({ error: errorMessage });
   }
   try {
-    const user = await knex("user").where({ username: username }).first();
+    const user = await knex("users").where({ username: username }).first();
     if (!user) {
       return res.status(400).json({ error: "User doesn't exist" });
     }
@@ -88,7 +88,7 @@ router.get("/", async (req, res) => {
     const verified = jwt.verify(authToken, process.env.JWT_SECRET);
     if (verified) {
       const { id } = verified;
-      const user = await knex("user").where({ id }).first();
+      const user = await knex("users").where({ id }).first();
       if (!user) {
         return res.status(404).json({ error: "User not found" });
       }
