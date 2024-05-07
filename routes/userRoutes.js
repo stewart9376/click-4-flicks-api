@@ -2,9 +2,8 @@ const router = require("express").Router();
 const bcrypt = require("bcrypt");
 require("dotenv").config();
 
-const environment = process.env.NODE_ENV || "development";
-const configuration = require("../knexfile")[environment];
-const knex = require("knex")(configuration);
+const knex = require("knex")(require("../knexfile"));
+
 const jwt = require("jsonwebtoken");
 
 router.post("/register", async (req, res) => {
